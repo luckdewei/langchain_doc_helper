@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "certifi>=2026.2.25",
+    "fastapi>=0.135.2",
     "langchain>=1.2.13",
     "langchain-community>=0.4.1",
     "langchain-openai>=1.1.12",
@@ -15,4 +16,5 @@ dependencies = [
     "langchain-text-splitters>=1.1.1",
     "lxml>=6.0.2",
     "python-dotenv>=1.2.2",
+    "uvicorn>=0.42.0",
 ]
